@@ -4,6 +4,7 @@ package test;
  */
 public class readline {
 	public static void main(String args[]) {
+		int a;
 		String strInfo = null;
 		int pos = 0;
 		byte[] buf = new byte[1024];// 定义一个数组，存放换行前的各个字符
