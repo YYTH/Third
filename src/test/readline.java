@@ -1,5 +1,7 @@
 package test;
-
+/*
+ * ceshi
+ */
 public class readline {
 	public static void main(String args[]) {
 		String strInfo = null;
@@ -30,5 +32,6 @@ public class readline {
 				buf[pos++] = (byte) ch; // 如果不是回车，换行，则将读取的数据存入数组中。
 			}
 		}
+		
 	}
 }
